@@ -1,0 +1,12 @@
+{
+  "name": "flow-lambda-sample",
+  "description": "flow lambda sample",
+  "memory": 128,
+  "timeout": 5,
+  "handler": "index.default",
+  "role": "arn:aws:iam::400150091061:role/flow-lambda-sample_lambda_function",
+  "environment": {},
+  "hooks": {
+    "build": "cd ../../ && npm run build:prod"
+  }
+}

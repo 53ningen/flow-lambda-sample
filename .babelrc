@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  "plugins": [
+    "babel-plugin-transform-flow-strip-types"
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        "babili"
+      ]
+    }
+  }
+}
+
